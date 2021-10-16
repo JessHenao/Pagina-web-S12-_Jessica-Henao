@@ -1,0 +1,275 @@
+:root{
+    --primary: rgba(38, 128, 72, 0.733);
+}
+
+body{
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+}
+
+.container{
+    max-width: 1400px;
+}
+
+.collapse a:hover{
+    color: white;
+    background-color: var(--primary);
+    border-radius: 15px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.bg-primary{
+    background-color:var(--primary) !important
+}
+
+.content{
+    max-width: 650px;
+}
+
+.galeria1{
+    width: 100vw;
+    height: 320px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+.sesgoarriba {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 12vh 0 0 25vw ;
+    border-style: solid;
+    border-color: white transparent transparent transparent ;
+}
+
+
+.imagenes1{
+    width: 20%;
+    height: 300px;
+}
+
+.imagenes1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.introduccion {
+    margin: 40px 6% 0px 6%;
+    font-size: 27px;
+    text-align: center;
+}
+
+.p3, h1 span{
+    color: var(--primary);
+    margin-bottom: 60px;
+}
+
+h1{
+    margin-left: 5%;
+}
+
+.calendario{
+    max-width: 45%;
+    margin-left: 5%;
+}
+
+.dias{
+    border: 1px double var(--primary);
+    background: var(--primary);
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 40px;
+    color: aliceblue;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.dia{
+    margin: auto;
+    border: 1px double var(--primary);
+    width: 40px;
+    height: 38px;
+    color: var(--primary);
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 22px;
+    justify-self: right;
+    border-radius: 50%;
+}
+
+.dato{    
+    border-radius: 50%;
+    border: 1px double rgba(247, 34, 34, 0.384);
+    color: rgba(247, 34, 34, 0.384);
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 5px;
+    font-size: 22px;
+    overflow: hidden;
+    justify-self: right;
+    transition: 1s;
+    cursor:pointer;
+}
+
+
+
+  .dato:hover {
+    background: white(243, 243, 243, 0.808);
+    font-size: 20px;
+    line-height:25px;
+    margin: 8px 1% 1%;
+    width: 150px;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.social {
+    margin-left: 5%;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+#instagram {
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+#twitter {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.galeria1{
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.sesgoarriba2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 20vh 0 0 100vw ;
+    border-style: solid;
+    border-color: white transparent transparent transparent ;
+}
+
+.imagenes3{
+    width: 25%;
+    height: 300px;
+}
+
+.imagenes3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria2{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes2{
+    width: 25%;
+    height: 100px;
+}
+
+.imagenes2 img{
+    width: 100%;
+    height: 305%;
+    object-fit: cover;
+}
+
+
+footer {
+    bottom: 0;
+    box-shadow:  -1px -1px 5px 0 rgba(192, 192, 192, 0.726);
+    width: 100vw;
+            }
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+}
+
+footer ul li {
+    padding: 0 10px;
+    display: inline;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li a:hover {
+    color: rgba(255, 255, 255, 0.315);
+    text-decoration: underline;
+}
+
+footer div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+footer div a {
+    font-size: 24px;
+    width: 40px;
+    height: 35px;
+    line-height: 33px;
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    box-shadow:  -1px -1px 3px 0 rgba(218, 214, 214, 0.726);
+}
+
+footer div a:hover {
+    border: solid 2px var(--primary);
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 0;
+}

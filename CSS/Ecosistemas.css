@@ -1,0 +1,143 @@
+:root {
+    --primary: rgba(38, 128, 72, 0.733);
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.collapse a:hover {
+    color: white;
+    background-color: var(--primary);
+    border-radius: 15px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important
+}
+
+.content {
+    max-width: 700px;
+}
+
+.galeria1 {
+    width: 100vw;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+
+.sesgoarriba {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 12vh 0 0 25vw;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+
+
+.imagenes1 {
+    width: 20%;
+    height: 100px;
+}
+
+.imagenes1 img {
+    width: 100%;
+    height: 150%;
+    object-fit: cover;
+}
+
+.ecosis h1, .ecosis h4{
+    color: var(--primary);
+}
+
+p{
+    text-align: justify;
+}
+
+footer {
+    width: 100vw;
+    bottom: 0;
+    box-shadow:  -1px -1px 5px 0 rgba(88, 87, 87, 0.726);
+            }
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+
+}
+
+footer ul li {
+    padding: 0 10px;
+    display: inline;
+}
+
+footer ul li a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+footer ul li a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+footer div {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+footer div a {
+    font-size: 24px;
+    width: 40px;
+    height: 35px;
+    line-height: 33px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    box-shadow:  -1px -1px 3px 0 rgba(88, 87, 87, 0.726);
+}
+
+footer div a:hover {
+    border: solid 2px var(--primary);
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #aaa;
+    margin-bottom: 0;
+}
